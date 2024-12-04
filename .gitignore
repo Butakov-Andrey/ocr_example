@@ -1,0 +1,11 @@
+**/.env
+**/local.env
+**/.ssh
+**/.session
+*.log
+.coverage
+.session
+
+logs/
+env/
+venv/

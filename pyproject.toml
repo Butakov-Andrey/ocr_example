@@ -1,0 +1,9 @@
+[project]
+name = "ocr_example"
+version = "0.1.0"
+description = "ocr_example"
+readme = "README.MD"
+dependencies = [
+    'pytesseract',
+    'pillow',
+]

@@ -1,0 +1,18 @@
+services:
+  ocr:
+    container_name: ocr
+    image: ocr_image
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python main.py
+    volumes:
+      - ./app/:/code
+    ports:
+      - 8000:8000
+    networks:
+      - local_network
+
+networks:
+  local_network:
+    driver: bridge
