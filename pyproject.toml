@@ -6,4 +6,6 @@ readme = "README.MD"
 dependencies = [
     'pytesseract',
     'pillow',
+
+    'easyocr',
 ]
